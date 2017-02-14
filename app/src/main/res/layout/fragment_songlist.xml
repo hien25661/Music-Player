@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="media.musicplayer.songs.mp3player.audio.ui.SongsFragment">
+
+    <ImageView
+        android:id="@+id/imvRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/listview_song"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+</FrameLayout>

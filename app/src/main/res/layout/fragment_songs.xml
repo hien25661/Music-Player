@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="media.musicplayer.songs.mp3player.audio.ui.SongsFragment">
+    <LinearLayout
+        android:id="@+id/linear_totalSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="left|center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/total_song"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tv_numSongs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_below="@+id/linear_totalSong"
+        android:id="@+id/ln_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/fab_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/fab_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_addButtonColorNormal="@color/black_trans"
+                fab:fab_addButtonColorPressed="@color/black_trans"
+                fab:fab_addButtonSize="mini"
+                fab:fab_expandDirection="right"
+                fab:fab_labelsPosition="right"
+                >
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_settings_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_search_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_suffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_shuffle_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_sort_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_multiselect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_apps_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fab_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_back_to_tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_keyboard_backspace_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_add_playlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_playlist_add_check_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_play_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_playlist_play_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fb_delete_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white_pressed"
+                    fab:fab_icon="@drawable/ic_delete_sweep_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_title="Label on the right" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listview_song"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ln_fab">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

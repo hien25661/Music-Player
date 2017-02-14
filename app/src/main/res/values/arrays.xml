@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="arr_timerset" translatable="false">
+       <item>Not set</item>
+       <item>30 mins</item>
+       <item>60 mins</item>
+       <item>90 mins</item>
+       <item>120 mins</item>
+       <item>150 mins</item>
+       <item>180 mins</item>
+       <item>Custom</item>
+   </string-array>
+</resources>

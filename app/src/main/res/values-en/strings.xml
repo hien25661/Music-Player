@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_song">Total Songs: </string>
+    <string name="directory">Directory </string>
+    <string name="now_playing">Now Playing</string>
+    <string name="search_queue_title">Search results</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist">PLAYLISTS</string>
+    <string name="Songs">SONGS</string>
+    <string name="Album">ALBUMS</string>
+    <string name="Artists">ARTISTS</string>
+    <string name="More">MORE</string>
+    <string name="title_activity_skin">SkinActivity</string>
+    <string name="Version">Version</string>
+    <string name="Genre">Genres</string>
+    <string name="Skin">Skin Setting</string>
+    <string name="Unknown"><unknown></unknown></string>
+    <string name="RecentlyAdd">Recently Added</string>
+    <string name="LastPlay">Last Played</string>
+    <string name="MyRecord">My Record</string>
+    <string name="success">success</string>
+    <string name="failed">failed</string>
+    <string name="MyPlaylist">My Playlist</string>
+    <string name="AddToPlaylist">Add to Playlist</string>
+    <string name="RingToneSet">Ringtone Set</string>
+    <string name="Delete">Delete</string>
+    <string name="SelectAction">Select action:</string>
+    <string name="SelectPlaylist">Select playlist:</string>
+    <string name="NewPlaylist">Create new Playlist</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Play">Play</string>
+    <string name="Rename">Rename</string>
+    <string name="RemoveFromPlaylist">Remove from Playlist</string>
+    <string name="Equalizer">Equalizer</string>
+    <string name="save_preset">Save Preset</string>
+    <string name="load_preset">Load Preset</string>
+    <string name="preset_name">Enter Preset Name</string>
+    <string name="preset_saved">Preset saved</string>
+    <string name="bass">Bass</string>
+    <string name="volume">Volume</string>
+    <string name="virtual">Virtualizer</string>
+    <string name="Setting">Setting</string>
+    <string name="app_name">Music Player</string>
+    <string name="more_app">More App</string>
+    <string name="language">Language</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="introduce">Introduce Friends </string>
+    <string name="rate_us">Rate us</string>
+
+    <string name="Title">Title</string>
+    <string name="Artist">Artist</string>
+    <string name="sAlbum">Album</string>
+    <string name="Duration">Duration</string>
+    <string name="Date_added">Date added</string>
+    <string name="sort_desc">Sort indescending order</string>
+    <string name="Sort">Sort</string>
+    <string name="search_hint">Enter text to search</string>
+
+    <string name="English">English</string>
+    <string name="France">Français</string>
+    <string name="Deutsch">Deutsch</string>
+    <string name="Italiano">Italiano</string>
+    <string name="Espanol">Español</string>
+    <string name="Portugues">Português</string>
+    <string name="PortuguesBR">Português(BR)</string>
+    <string name="Pycck">Русский</string>
+    <string name="Japan">日本語</string>
+    <string name="Turkey">Türk</string>
+
+    <string name="mess_change_language">You have to close the app one time to make language all over to app</string>
+    <string name="custom_minute">Enter minutes:</string>
+    <string name="sleep_mess_1">Music Player will be sleep in </string>
+    <string name="sleep_mess_2"> minutes.</string>
+    <string name="sleep_mess_cancel">Cancel sleep mode</string>
+    <string name="choose_sleep">Choose sleep timer</string>
+    <string name="skin_setting">Skin Setting</string>
+
+    <string name="total">Total Songs:</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="size_btn">155</integer>
+    <integer name="size_black">10</integer>
+    <integer name="size_width">10</integer>
+
+</resources>

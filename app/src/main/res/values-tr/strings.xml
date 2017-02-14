@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_song">Toplam Şarkı:</string>
+    <string name="directory">rehber</string>
+    <string name="now_playing">Şimdi oynuyor</string>
+    <string name="search_queue_title">Arama sonuçları</string>
+    <string name="hello_blank_fragment">Merhaba boş fragmanı</string>
+    <string name="playlist">PLAYLISTS</string>
+    <string name="Songs">Şarkı</string>
+    <string name="Album">ALBÜM</string>
+    <string name="Artists">SANATÇI</string>
+    <string name="More">DAHA</string>
+    <string name="title_activity_skin">SkinActivity</string>
+    <string name="Version">versiyon</string>
+    <string name="Genre">Türler</string>
+    <string name="Skin">cilt Ayarı</string>
+    <string name="Unknown"><unknown></unknown></string>
+    <string name="RecentlyAdd">son Eklenenler</string>
+    <string name="LastPlay">Son Oynanan</string>
+    <string name="MyRecord">benim Kayıt</string>
+    <string name="success">başarı</string>
+    <string name="failed">başarısız</string>
+    <string name="MyPlaylist">My Playlist</string>
+    <string name="AddToPlaylist">Oynatma listesine ekle</string>
+    <string name="RingToneSet">Melodi Seti</string>
+    <string name="Delete">silmek</string>
+    <string name="SelectAction">Seçin eylem:</string>
+    <string name="SelectPlaylist">Seçin çalma listesi:</string>
+    <string name="NewPlaylist">Yeni Çalma Listesi Oluştur</string>
+    <string name="Ok">Tamam</string>
+    <string name="Cancel">İptal</string>
+    <string name="Play">oyun</string>
+    <string name="Rename">adını değiştirmek</string>
+    <string name="RemoveFromPlaylist">Oynatma Listesinden Kaldır</string>
+    <string name="Equalizer">Ekolayzer</string>
+    <string name="save_preset">Hazır Ayarı Kaydet</string>
+    <string name="load_preset">Preset Yük</string>
+    <string name="preset_name">Önceden ayarlanmış Adını Girin</string>
+    <string name="preset_saved">Önceden ayarlanmış kaydedildi</string>
+    <string name="bass">Bas</string>
+    <string name="volume">hacim</string>
+    <string name="virtual">Virtualizer</string>
+    <string name="Setting">ayar</string>
+    <string name="app_name">Müzik çalar</string>
+    <string name="more_app">Daha fazla uygulama</string>
+    <string name="language">Dil</string>
+    <string name="remove_ads">Reklamları kaldır</string>
+    <string name="introduce">Arkadaşlar tanıtmak</string>
+    <string name="rate_us">Bizi değerlendirin</string>
+    <string name="Title">başlık</string>
+    <string name="Artist">Sanatçı</string>
+    <string name="sAlbum">Albüm</string>
+    <string name="Duration">süre</string>
+    <string name="Date_added">Ekleme Tarihi</string>
+    <string name="sort_desc">Sırala azalan düzeni</string>
+    <string name="Sort">çeşit</string>
+    <string name="search_hint">aramak için metni girin</string>
+    <string name="English">English</string>
+    <string name="France">Français</string>
+    <string name="Deutsch">Deutsch</string>
+    <string name="Italiano">Italiano</string>
+    <string name="Espanol">Español</string>
+    <string name="Portugues">Português</string>
+    <string name="PortuguesBR">Português(BR)</string>
+    <string name="Pycck">Русский</string>
+    <string name="Japan">日本語</string>
+    <string name="Turkey">Türk</string>
+
+    <string name="mess_change_language">Uygulamayı her app üzerinde dil yapmak için bir kez kapatmak zorunda</string>
+    <string name="custom_minute">dakika girin:</string>
+    <string name="sleep_mess_1">Müzik Çalar uyku olacak</string>
+    <string name="sleep_mess_2">dakika.</string>
+    <string name="sleep_mess_cancel">Uyku modunu iptal</string>
+    <string name="choose_sleep">uyku zamanlayıcısı seçin</string>
+    <string name="skin_setting">cilt Ayarı</string>
+
+    <string name="plugin" translatable="true">Kulaklık zaman kulaklık fişi de \nplay dışarı taktığınızda Pause.</string>
+    <string name="shake" translatable="true">şarkı değiştirmek için sallayarak</string>
+    <string name="lock" translatable="true">Kilit ekranında göster oyuncu</string>
+    <string name="disable" translatable="true">engelli</string>
+    <string name="enable" translatable="true">Etkin</string>
+    <string name="Favorite">Sevdiği Şarkılar</string>
+    <string name="NextPlay">Sonraki Play</string>
+    <string name="GotoAlbum">Albüme git</string>
+    <string name="plug_earphone" translatable="true">kulaklık fişi</string>
+    <string name="shake_setting" translatable="true">şarkı değiştirmek için sallayarak</string>
+    <string name="timer">uyku Zamanlayıcısı</string>
+    <string name="timernotset">Set değil</string>
+
+    <string name="total">Toplam Şarkı:</string>
+</resources>

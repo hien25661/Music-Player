@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_song">Canzoni totali:</string>
+    <string name="directory">elenco</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="search_queue_title">Risultati di ricerca</string>
+    <string name="hello_blank_fragment">Ciao frammento vuoto</string>
+    <string name="playlist">PLAYLIST</string>
+    <string name="Songs">Canzone</string>
+    <string name="Album">ALBUM</string>
+    <string name="Artists">ARTISTA</string>
+    <string name="More">DI PIÙ</string>
+    <string name="title_activity_skin">SkinActivity</string>
+    <string name="Version">Versione</string>
+    <string name="Genre">generi</string>
+    <string name="Skin">Impostazione della pelle</string>
+    <string name="Unknown"><unknown></unknown></string>
+    <string name="RecentlyAdd">Aggiunto recentemente</string>
+    <string name="LastPlay">Ultima Giocato</string>
+    <string name="MyRecord">Il mio record</string>
+    <string name="success">successo</string>
+    <string name="failed">fallito</string>
+    <string name="MyPlaylist">My Playlist</string>
+    <string name="AddToPlaylist">Aggiungi a playlist</string>
+    <string name="RingToneSet">Ringtone Set</string>
+    <string name="Delete">cancellare</string>
+    <string name="SelectAction">Seleziona azione:</string>
+    <string name="SelectPlaylist">Seleziona playlist:</string>
+    <string name="NewPlaylist">Crea nuovo elenco di riproduzione</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Annulla</string>
+    <string name="Play">Giocare</string>
+    <string name="Rename">Rinominare</string>
+    <string name="RemoveFromPlaylist">Rimuovi da playlist</string>
+    <string name="Equalizer">Equalizzatore</string>
+    <string name="save_preset">Salva predefinito</string>
+    <string name="load_preset">Carica Preset</string>
+    <string name="preset_name">Inserire nome Preset</string>
+    <string name="preset_saved">Preset salvato</string>
+    <string name="bass">Basso</string>
+    <string name="volume">Volume</string>
+    <string name="virtual">Virtualizer</string>
+    <string name="Setting">ambiente</string>
+    <string name="app_name">Lettore musicale</string>
+    <string name="more_app">Più applicazioni</string>
+    <string name="language">Lingua</string>
+    <string name="remove_ads">Rimuovere gli annunci</string>
+    <string name="introduce">introdurre gli amici</string>
+    <string name="rate_us">tasso degli Stati Uniti</string>
+    <string name="Title">Titolo</string>
+    <string name="Artist">Artista</string>
+    <string name="sAlbum">Album</string>
+    <string name="Duration">Durata</string>
+    <string name="Date_added">Data aggiunta</string>
+    <string name="sort_desc">ordinamento discendente</string>
+    <string name="Sort">Ordinare</string>
+    <string name="search_hint">Inserisci il testo da ricercare</string>
+    <string name="English">English</string>
+    <string name="France">Français</string>
+    <string name="Deutsch">Deutsch</string>
+    <string name="Italiano">Italiano</string>
+    <string name="Espanol">Español</string>
+    <string name="Portugues">Português</string>
+    <string name="PortuguesBR">Português(BR)</string>
+    <string name="Pycck">Русский</string>
+    <string name="Japan">日本語</string>
+    <string name="Turkey">Türk</string>
+
+    <string name="mess_change_language">È necessario chiudere l\'applicazione una sola volta per rendere il linguaggio tutto il mondo per app</string>
+    <string name="custom_minute">Inserisci minuti:</string>
+    <string name="sleep_mess_1">Lettore musicale sarà il sonno in</string>
+    <string name="sleep_mess_2">minuti.</string>
+    <string name="sleep_mess_cancel">Annulla modalità sleep</string>
+    <string name="choose_sleep">Scegli il timer di spegnimento</string>
+    <string name="skin_setting">Impostazione della pelle</string>
+
+    <string name="plugin" translatable="true">Pausa quando auricolare spina di\nplay quando presa per cuffie in.</string>
+    <string name="shake" translatable="true">Agitante per cambiare la canzone</string>
+    <string name="lock" translatable="true">Mostra giocatore sullo schermo di blocco</string>
+    <string name="disable" translatable="true">Disabilitato</string>
+    <string name="enable" translatable="true">Abilitato</string>
+    <string name="Favorite">Canzoni preferite</string>
+    <string name="NextPlay">Prossimo gioco</string>
+    <string name="GotoAlbum">Vai a Album</string>
+    <string name="plug_earphone" translatable="true">Presa per cuffie</string>
+    <string name="shake_setting" translatable="true">Agitante per cambiare la canzone</string>
+    <string name="timer">Sveglia</string>
+    <string name="timernotset">Non impostato</string>
+
+    <string name="total">Canzoni totali:</string>
+</resources>

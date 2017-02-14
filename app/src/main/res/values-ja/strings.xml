@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_song">総曲：</string>
+    <string name="directory">ディレクトリ</string>
+    <string name="now_playing">再生中</string>
+    <string name="search_queue_title">の検索結果</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist">プレイリスト</string>
+    <string name="Songs">ソング</string>
+    <string name="Album">アルバム</string>
+    <string name="Artists">アーティスト</string>
+    <string name="More">もっと</string>
+    <string name="title_activity_skin">SkinActivity</string>
+    <string name="Version">バージョン</string>
+    <string name="Genre">ジャンル</string>
+    <string name="Skin">スキンの設定</string>
+    <string name="Unknown"><unknown></unknown></string>
+    <string name="RecentlyAdd">最近追加された</string>
+    <string name="LastPlay">ラストプレイ</string>
+    <string name="MyRecord">私の記録</string>
+    <string name="success">成功</string>
+    <string name="failed">失敗しました</string>
+    <string name="MyPlaylist">マイプレイリスト</string>
+    <string name="AddToPlaylist">プレイリストに追加する</string>
+    <string name="RingToneSet">着信音の設定</string>
+    <string name="Delete">削除</string>
+    <string name="SelectAction">アクションを選択します。</string>
+    <string name="SelectPlaylist">プレイリストを選択します。</string>
+    <string name="NewPlaylist">新しいプレイリストを作成します。</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">キャンセル</string>
+    <string name="Play">遊びます</string>
+    <string name="Rename">リネーム</string>
+    <string name="RemoveFromPlaylist">再生リストから削除</string>
+    <string name="Equalizer">イコライザ</string>
+    <string name="save_preset">プリセットの保存</string>
+    <string name="load_preset">プリセットをロードします</string>
+    <string name="preset_name">プリセット名を入力します。</string>
+    <string name="preset_saved">プリセット保存</string>
+    <string name="bass">ベース</string>
+    <string name="volume">ボリューム</string>
+    <string name="virtual">バーチャ</string>
+
+
+    <string name="Setting">設定</string>
+    <string name="app_name">Music Player</string>
+    <string name="more_app">もっとアプリ</string>
+    <string name="language">言語</string>
+    <string name="remove_ads">広告を削除</string>
+    <string name="introduce">友人を紹介</string>
+    <string name="rate_us">私たちを評価してください</string>
+    <string name="Title">タイトル</string>
+    <string name="Artist">アーティスト</string>
+    <string name="sAlbum">アルバム</string>
+    <string name="Duration">デュレーション</string>
+    <string name="Date_added">追加日</string>
+    <string name="sort_desc">ソート降順</string>
+    <string name="Sort">ソート</string>
+    <string name="search_hint">検索するテキストを入力してください</string>
+
+    <string name="English">English</string>
+    <string name="France">Français</string>
+    <string name="Deutsch">Deutsch</string>
+    <string name="Italiano">Italiano</string>
+    <string name="Espanol">Español</string>
+    <string name="Portugues">Português</string>
+    <string name="PortuguesBR">Português(BR)</string>
+    <string name="Pycck">Русский</string>
+    <string name="Japan">日本語</string>
+    <string name="Turkey">Türk</string>
+
+    <string name="mess_change_language">あなたは、すべてのアプリにかけて言語を作るために、アプリを一度閉じる必要があります</string>
+    <string name="custom_minute">分を入力します。</string>
+    <string name="sleep_mess_1">音楽プレーヤーは、スリープになります</string>
+    <string name="sleep_mess_2">分。</string>
+    <string name="sleep_mess_cancel">スリープモードを解除します</string>
+    <string name="choose_sleep">スリープタイマーを選択してください</string>
+    <string name="skin_setting">スキンの設定</string>
+
+    <string name="plugin" translatable="true">イヤホン時イヤホンプラグでの\ nplayを接続したときに一時停止します。</string>
+    <string name="shake" translatable="true">曲を変更する振盪</string>
+    <string name="lock" translatable="true">ロック画面に表示するプレーヤー</string>
+    <string name="disable" translatable="true">使用禁止</string>
+    <string name="enable" translatable="true">使用可能</string>
+    <string name="Favorite">お気に入りの曲</string>
+    <string name="NextPlay">次にプレイ</string>
+    <string name="GotoAlbum">アルバムに移動します</string>
+    <string name="plug_earphone" translatable="true">イヤホンプラグ</string>
+    <string name="shake_setting" translatable="true">曲を変更する振盪</string>
+    <string name="timer">スリープタイマー</string>
+    <string name="timernotset">設定されていません</string>
+
+    <string name="total">総曲：</string>
+</resources>

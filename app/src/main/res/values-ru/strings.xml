@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_song">Всего песен:</string>
+    <string name="directory">каталог</string>
+    <string name="now_playing">Сейчас играет</string>
+    <string name="search_queue_title">Результаты поиска</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="playlist">ПЛЕЙЛИСТОВ</string>
+    <string name="Songs">песня</string>
+    <string name="Album">АЛЬБОМЫ</string>
+    <string name="Artists">ХУДОЖНИК</string>
+    <string name="More">БОЛЬШЕ</string>
+    <string name="title_activity_skin">SkinActivity</string>
+    <string name="Version">Версия</string>
+    <string name="Genre">Жанры</string>
+    <string name="Skin">Настройка кожи</string>
+    <string name="Unknown"><unknown></unknown></string>
+    <string name="RecentlyAdd">Недавно добавленный</string>
+    <string name="LastPlay">Последние сыгранные</string>
+    <string name="MyRecord">Моя запись</string>
+    <string name="success">успех</string>
+    <string name="failed">не смогли</string>
+    <string name="MyPlaylist">Мой список воспроизведения</string>
+    <string name="AddToPlaylist">Добавить в плейлист</string>
+    <string name="RingToneSet">Мелодия Set</string>
+    <string name="Delete">Удалить</string>
+    <string name="SelectAction">Выберите действие:</string>
+    <string name="SelectPlaylist">Выбор списка воспроизведения:</string>
+    <string name="NewPlaylist">Создать новый плейлист</string>
+    <string name="Ok">ОК</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Play">Играть</string>
+    <string name="Rename">переименовывать</string>
+    <string name="RemoveFromPlaylist">Удалить из списка воспроизведения</string>
+    <string name="Equalizer">балансир</string>
+    <string name="save_preset">Сохранение настройки</string>
+    <string name="load_preset">Загрузка предустановки</string>
+    <string name="preset_name">Введите имя предустановки</string>
+    <string name="preset_saved">Предустановленная сохранены</string>
+    <string name="bass">бас</string>
+    <string name="volume">объем</string>
+    <string name="virtual">Virtualizer</string>
+    <string name="Setting">настройка</string>
+    <string name="app_name">Музыкальный проигрыватель</string>
+    <string name="more_app">Больше приложений</string>
+    <string name="language">язык</string>
+    <string name="remove_ads">Убрать рекламу</string>
+    <string name="introduce">Представьте друзей</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="Title">заглавие</string>
+    <string name="Artist">художник</string>
+    <string name="sAlbum">Альбом</string>
+    <string name="Duration">продолжительность</string>
+    <string name="Date_added">Дата Добавлена</string>
+    <string name="sort_desc">Сортировать по убыванию заказ</string>
+    <string name="Sort">Сортировать</string>
+    <string name="search_hint">Введите текст для поиска</string>
+    <string name="English">English</string>
+    <string name="France">Français</string>
+    <string name="Deutsch">Deutsch</string>
+    <string name="Italiano">Italiano</string>
+    <string name="Espanol">Español</string>
+    <string name="Portugues">Português</string>
+    <string name="PortuguesBR">Português(BR)</string>
+    <string name="Pycck">Русский</string>
+    <string name="Japan">日本語</string>
+    <string name="Turkey">Türk</string>
+
+    <string name="mess_change_language">Вы должны закрыть приложение один раз, чтобы сделать язык во всем, чтобы приложение</string>
+    <string name="custom_minute">Введите минут:</string>
+    <string name="sleep_mess_1">Музыкальный плеер будет спать в</string>
+    <string name="sleep_mess_2">минут.</string>
+    <string name="sleep_mess_cancel">Отмените спящий режим</string>
+    <string name="choose_sleep">Выберите таймер сна</string>
+    <string name="skin_setting">Настройка кожи</string>
+
+    <string name="plugin" translatable="true">Пауза, когда наушник выдернуть\nplay, когда штекер наушников в.</string>
+    <string name="shake" translatable="true">Пожимая менять песню</string>
+    <string name="lock" translatable="true">Показать игрока на экране блокировки</string>
+    <string name="disable" translatable="true">Отключено</string>
+    <string name="enable" translatable="true">Включено</string>
+    <string name="Favorite">Любимые песни</string>
+    <string name="NextPlay">Следующая Play</string>
+    <string name="GotoAlbum">Перейти в альбом</string>
+    <string name="plug_earphone" translatable="true">штекер наушников</string>
+    <string name="shake_setting" translatable="true">Пожимая менять песню</string>
+    <string name="timer">Таймер сна</string>
+    <string name="timernotset">Не задано</string>
+
+    <string name="total">Всего песен:</string>
+</resources>

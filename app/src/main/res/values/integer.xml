@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="size_btn">170</integer>
+    <integer name="size_black">10</integer>
+
+</resources>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-5111870703816303/9795422250</string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="search_queue_title">Search results</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist">PLAYLISTS</string>
+    <string name="Songs">SONGS</string>
+    <string name="Album">ALBUMS</string>
+    <string name="Artists">ARTISTS</string>
+    <string name="More">MORE</string>
+    <string name="title_activity_skin">SkinActivity</string>
+    <string name="Version">Version</string>
+    <string name="Genre">Genres</string>
+    <string name="MyFiles">My Files</string>
+    <string name="Skin">Skin Setting</string>
+    <string name="plugin" translatable="true">Pause when Earphone plug out\nplay when earphone plug in.</string>
+    <string name="shake" translatable="true">Shaking to change song</string>
+    <string name="lock" translatable="true">Show player on lock screen</string>
+    <string name="disable" translatable="true">Disabled</string>
+    <string name="enable" translatable="true">Enabled</string>
+    <string name="Unknown"><unknown></unknown></string>
+    <string name="RecentlyAdd">Recently Added</string>
+    <string name="LastPlay">Last Played</string>
+    <string name="Favorite">Favorite Songs</string>
+    <string name="MyRecord">My Record</string>
+    <string name="success">success</string>
+    <string name="failed">failed</string>
+    <string name="MyPlaylist">My Playlist</string>
+    <string name="AddToPlaylist">Add to Playlist</string>
+    <string name="RingToneSet">Ringtone Set</string>
+    <string name="NextPlay">NextPlay</string>
+    <string name="Delete">Delete</string>
+    <string name="GotoAlbum">Go to Album</string>
+    <string name="SelectAction">Select action:</string>
+    <string name="SelectPlaylist">Select playlist:</string>
+    <string name="NewPlaylist">Create new Playlist</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Play">Play</string>
+    <string name="Rename">Rename</string>
+    <string name="RemoveFromPlaylist">Remove from Playlist</string>
+    <string name="Equalizer">Equalizer</string>
+    <string name="save_preset">Save Preset</string>
+    <string name="load_preset">Load Preset</string>
+    <string name="preset_name">Enter Preset Name</string>
+    <string name="preset_saved">Preset saved</string>
+    <string name="bass">Bass</string>
+    <string name="volume">Volume</string>
+    <string name="virtual">Virtualizer</string>
+    <string name="Setting">Setting</string>
+    <string name="app_name">Music Player</string>
+    <string name="more_app">More App</string>
+    <string name="language">Language</string>
+    <string name="plug_earphone" translatable="true">Earphone plug</string>
+    <string name="shake_setting" translatable="true">Shaking to change song</string>
+    <string name="timer">Sleep Timer</string>
+    <string name="timernotset">Not Set</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="introduce">Introduce Friends </string>
+    <string name="rate_us">Rate us</string>
+
+    <string name="Title">Title</string>
+    <string name="Artist">Artist</string>
+    <string name="sAlbum">Album</string>
+    <string name="Duration">Duration</string>
+    <string name="Date_added">Date added</string>
+    <string name="sort_desc">Sort indescending order</string>
+    <string name="Sort">Sort</string>
+    <string name="search_hint">Enter text to search</string>
+
+    <string name="English">English</string>
+    <string name="France">Français</string>
+    <string name="Deutsch">Deutsch</string>
+    <string name="Italiano">Italiano</string>
+    <string name="Espanol">Español</string>
+    <string name="Portugues">Português</string>
+    <string name="PortuguesBR">Português(BR)</string>
+    <string name="Pycck">Русский</string>
+    <string name="Japan">日本語</string>
+    <string name="Turkey">Türk</string>
+
+    <string name="mess_change_language">You have to close the app one time to make language all over to app</string>
+    <string name="mess_change_plugin_in" translatable="true">Start playing when earphone plug in</string>
+    <string name="mess_change_plugin_out">Pause when earphone plug in</string>
+    <string name="mess_change_shake_on" translatable="true">Enabled Shake</string>
+    <string name="mess_change_shake_off" translatable="true">Disabled Shake</string>
+    <string name="mess_change_lock_on" translatable="true">Enabled Player when locked screen</string>
+    <string name="mess_change_lock_off" translatable="true">Disabled Player when locked screen</string>
+    <string name="custom_minute">Enter minutes:</string>
+    <string name="sleep_mess_1">Music Player will be sleep in </string>
+    <string name="sleep_mess_2"> minutes.</string>
+    <string name="sleep_mess_cancel">Cancel sleep mode</string>
+    <string name="choose_sleep">Choose sleep timer</string>
+    <string name="skin_setting">Skin Setting</string>
+
+
+
+
+
+
+
+
+
+
+    <string name="search_edit_box">Search</string>
+
+    <string name="button_start_record_activity">Record New</string>
+
+    <string name="sdcard_readonly">Sorry, the SD Card is mounted as read-only and Ringdroid requires it to be writable.</string>
+    <string name="no_sdcard">Sorry, Ringdroid can\'t run unless you have an SD Card inserted.</string>
+    <string name="sdcard_shared">Sorry, Ringdroid can\'t run while your handset is mounted as a USB device.</string>
+
+    <string name="button_options">Options</string>
+
+    <!--
+     Edit activity
+     -->
+
+    <!-- Labels next to the start and end time edit boxes -->
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+
+    <string name="edit_intent">Edit</string>
+
+    <string name="time_seconds">seconds</string>
+
+    <!-- After you save a notification or ringtone and have more options
+         for what to do with them -->
+    <string name="what_to_do_with_ringtone">Saved!  Make this your default ringtone?</string>
+    <string name="set_default_notification">Saved!  Make this your default notification?</string>
+
+    <string name="make_default_ringtone_button">Make Default</string>
+    <string name="choose_contact_ringtone_button">Assign to Contact</string>
+    <string name="do_nothing_with_ringtone_button">Close</string>
+
+    <!-- Progress dialog text for loading or saving... -->
+    <string name="progress_dialog_loading">Loading...</string>
+    <string name="progress_dialog_saving">Saving...</string>
+
+    <!-- Image button descriptions for accessibility -->
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+    <string name="rewind">Rewind</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="ffwd">Fast forward</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="save_button">Save</string>
+
+    <!--
+     Menu items
+     -->
+
+    <string name="menu_save">Save</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_about">About</string>
+    <string name="menu_privacy">Privacy</string>
+    <string name="menu_show_all_audio">Show All Audio</string>
+
+    <!--
+     Context menu items
+     -->
+
+    <string name="context_menu_edit">Edit</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_default_ringtone">Set as Default Ringtone</string>
+    <string name="context_menu_contact">Assign to Contact</string>
+    <string name="context_menu_default_notification">Set as Default Notification</string>
+
+    <!--
+     File Save dialog
+     -->
+
+    <string name="file_save_title">Save As:</string>
+    <string name="file_save_button_save">Save</string>
+    <string name="file_save_button_cancel">Cancel</string>
+
+    <string name="ringtone_type_label">Type:</string>
+    <string name="ringtone_parent_dir_label">Parent Dir</string>
+
+    <string name="type_music">Music</string>
+    <string name="type_alarm">Alarm</string>
+    <string name="type_notification">Notification</string>
+    <string name="type_ringtone">Ringtone</string>
+
+    <string name="ringtone_name_label">File Name:</string>
+
+    <string name="artist_name">Ringdroid</string>
+
+    <!--
+     Delete confirmation dialog
+     -->
+
+    <string name="delete_ringtone">Delete Ringtone</string>
+    <string name="delete_alarm">Delete Alarm</string>
+    <string name="delete_notification">Delete Notification</string>
+    <string name="delete_music">Delete Music</string>
+    <string name="delete_audio">Delete Audio</string>
+
+    <string name="confirm_delete_ringdroid">Are you sure?</string>
+    <string name="confirm_delete_non_ringdroid"
+        >Are you sure?  This file was not created using Ringdroid!</string>
+
+    <string name="delete_ok_button">Delete</string>
+    <string name="delete_cancel_button">Cancel</string>
+
+    <string name="delete_failed">Unable to delete file</string>
+
+    <!--
+     Success and error messages
+     -->
+
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_yes_button">Yes, please!</string>
+    <string name="alert_no_button">No, thanks.</string>
+
+    <string name="save_success_message">Saved!</string>
+    <string name="default_ringtone_success_message">Changed default ringtone</string>
+    <string name="default_notification_success_message">Changed default notification sound</string>
+    <string name="play_error">Unable to play this media file</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="delete_tmp_error">Error deleting temporary file</string>
+    <string name="record_error">Error launching Sound Recorder</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="write_error">Error writing file</string>
+    <string name="read_error">Error reading file</string>
+
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+
+    <string name="bad_extension_error">Not support files of type</string>
+    <string name="no_extension_error">Only support mp3 or wav</string>
+
+    <!--
+     Choose Contact Activity
+     -->
+
+    <string name="choose_contact_title">Assign ringtone to which contact?</string>
+    <string name="success_contact_ringtone">Successfully assigned ringtone to:</string>
+
+    <!--
+     Sending information to server
+     -->
+    <string name="server_title">Share your data!</string>
+    <string name="server_prompt">Okay to send anonymous data about the ringtones and other sounds you create to Ringdroid.com so we can collect statistics? The privacy policy is at google.com/mobile/privacy.html</string>
+    <string name="server_yes">OK to send</string>
+    <string name="server_later">Ask later</string>
+    <string name="server_never">Never</string>
+    <string name="total_song">Total Songs: </string>
+    <string name="directory">Directory </string>
+
+    <string name="error_server_prompt">Okay to send anonymous data about this error to Ringdroid.com so we can try to fix this problem in the future? The privacy policy is at google.com/mobile/privacy.html</string>
+
+    <!--
+     About
+     -->
+
+    <string name="about_title">About Ringdroid</string>
+    <string name="about_text"><![CDATA[Use Ringdroid to edit MP3, WAV, AAC, and AMR audio files and create ringtones, alarms, and notifications from them.\n\nTip: copy audio files to your SD card using a USB cable, or get MP3s using the Amazon MP3 application.\n\nTip: long-press on an audio file from the main screen to delete it.  More below...\n\nTip: tap anywhere on the waveform to start playing at that position.\n\nTip: while playing, tap the word Start or End to quickly set the start and end markers to the current playback time.\n\nTip: Use the jog wheel for more precise adjustments.\n\nVersion 2.3\n\nDeveloper: Dominic Mazzoni\nGraphics: Joseph Wain\nSupport and evangelizing: Eugene Koh\nEnhancements: Dan Klufas\n\nRingdroid is free software, distributed under the Apache 2.0 license.  Source code is on code.google.com\n]]></string>
+
+    <string name="total">Total Songs:</string>
+
+</resources>
