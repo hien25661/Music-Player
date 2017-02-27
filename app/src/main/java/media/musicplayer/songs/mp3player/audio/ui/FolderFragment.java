@@ -66,8 +66,10 @@ public class FolderFragment extends Fragment {
     private String chosenFile;
     ArrayList<Song> mListSongs = new ArrayList<>();
     public static final int REQUEST_CODE_ASK_PERMISSIONS = 11;
+
     public FolderFragment() {
     }
+
     @SuppressLint("ValidFragment")
     public FolderFragment(ArrayList<Song> mlist) {
         mListSongs = mlist;
@@ -75,7 +77,7 @@ public class FolderFragment extends Fragment {
             for (Song song : mlist) {
                 boolean isExist = false;
                 String root[] = song.getPath().split("/");
-                Log.e("BOA",""+song.getPath());
+                Log.e("BOA", "" + song.getPath());
                 for (File a : RootFiles) {
                     if (a.getPath().equalsIgnoreCase(root[1])) {
                         path = new File(root[1]);
@@ -88,7 +90,7 @@ public class FolderFragment extends Fragment {
                     RootFiles.add(new File(root[1]));
                 }
             }
-        }catch (Exception ex){
+        } catch (Exception ex) {
         }
 
     }
@@ -99,7 +101,7 @@ public class FolderFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_folder, container, false);
         mContext = view.getContext();
         ButterKnife.bind(this, view);
-        Fabric.with(mContext,new Crashlytics());
+        Fabric.with(mContext, new Crashlytics());
         try {
             tv_directory.setText(path.getAbsolutePath());
             loadFileList();
@@ -107,53 +109,57 @@ public class FolderFragment extends Fragment {
             listViewFolder.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    try{
-                    chosenFile = fileList[position].file;
-                    File sel = new File(path + "/" + chosenFile);
-                    if (sel.isDirectory()) {
-                        firstLvl = false;
-                        // Adds chosen directory to list
-                        str.add(chosenFile);
-                        fileList = null;
-                        path = new File(sel + "");
-                        tv_directory.setText(path.getAbsolutePath());
-                        loadFileList();
-                        listViewFolder.setAdapter(adapter);
-                    }
-
-                    // Checks if 'up' was clicked
-                    else if (chosenFile.equalsIgnoreCase("Back") && !sel.exists()) {
-                        // present directory removed from list
-                        String s = str.remove(str.size() - 1);
-                        // path modified to exclude present directory
-                        path = new File(path.toString().substring(0,
-                                path.toString().lastIndexOf(s)));
-                        tv_directory.setText(path.getAbsolutePath());
-                        fileList = null;
-                        // if there are no more directories in the list, then
-                        // its the first level
-                        if (str.isEmpty()) {
-                            firstLvl = true;
+                    try {
+                        chosenFile = fileList[position].file;
+                        if (chosenFile.equalsIgnoreCase("emulated")) {
+                            chosenFile += "/0";
                         }
-                        loadFileList();
-                        listViewFolder.setAdapter(adapter);
-                    } else {
-                        int index = getInSongList(sel);
-                        if (index >= 0) {
-                            EventBus.getDefault().post(new TransitPlaySong(mListSongs, index, false));
+                        File sel = new File(path + "/" + chosenFile);
+                        if (sel.isDirectory()) {
+                            firstLvl = false;
+                            // Adds chosen directory to list
+                            str.add(chosenFile);
+                            fileList = null;
+                            path = new File(sel + "");
+                            tv_directory.setText(path.getAbsolutePath());
+                            loadFileList();
+                            listViewFolder.setAdapter(adapter);
                         }
 
+                        // Checks if 'up' was clicked
+                        else if (chosenFile.equalsIgnoreCase("Back") && !sel.exists()) {
+                            // present directory removed from list
+                            String s = str.remove(str.size() - 1);
+                            // path modified to exclude present directory
+                            path = new File(path.toString().substring(0,
+                                    path.toString().lastIndexOf(s)));
+                            tv_directory.setText(path.getAbsolutePath());
+                            fileList = null;
+                            // if there are no more directories in the list, then
+                            // its the first level
+                            if (str.isEmpty()) {
+                                firstLvl = true;
+                            }
+                            loadFileList();
+                            listViewFolder.setAdapter(adapter);
+                        } else {
+                            int index = getInSongList(sel);
+                            if (index >= 0) {
+                                EventBus.getDefault().post(new TransitPlaySong(mListSongs, index, false));
+                            }
+
+                        }
+                    } catch (Exception exx) {
                     }
-                }catch (Exception exx){}
                 }
             });
-        }catch (Exception ex){
+        } catch (Exception ex) {
 
         }
         return view;
     }
 
-    private void loadFileAfter(){
+    private void loadFileAfter() {
         try {
             path.mkdirs();
         } catch (SecurityException e) {
@@ -210,13 +216,14 @@ public class FolderFragment extends Fragment {
                     fileList = temp;
                 }
                 adapter = new FolderAdapter(mContext, fileList, mListSongs);
-            }catch (Exception ex){
+            } catch (Exception ex) {
 
             }
         } else {
             Log.e(TAG, "path does not exist");
         }
     }
+
     private void loadFileList() {
         int hasWriteContactsPermission = ContextCompat.checkSelfPermission(mContext, Manifest.permission.READ_EXTERNAL_STORAGE);
         if (hasWriteContactsPermission != PackageManager.PERMISSION_GRANTED) {
@@ -235,8 +242,8 @@ public class FolderFragment extends Fragment {
         File f = new File(dirPath);
         int numberFile = 0;
 
-        for(int i = 0 ; i < mListSongs.size() ; i++){
-            if(mListSongs.get(i).getPath().contains(dirPath)){
+        for (int i = 0; i < mListSongs.size(); i++) {
+            if (mListSongs.get(i).getPath().contains(dirPath)) {
                 numberFile++;
             }
         }
@@ -263,6 +270,7 @@ public class FolderFragment extends Fragment {
         }
         return index;
     }
+
     private boolean checkPathExistInSongList(File file) {
         String path = file.getAbsolutePath();
         for (Song song : mListSongs) {
